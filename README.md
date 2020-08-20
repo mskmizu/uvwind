@@ -1,5 +1,5 @@
 # uvwind
-This github describes how to use the xspec model for the UV line driven disc wind, used in the paper "UV line driven disc wind as the origin of ultrafast outflows in AGN" (Mizumoto et al. arXiv:2003.01137). If you use this model in your paper, please carefully read Mizumoto et al. and cite both of Mizumoto et al. and Nomura et al. 2020, 494, 3616 (https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3616N/abstract).
+This github describes how to use the xspec model for the UV line driven disc wind, used in the paper "UV line driven disc wind as the origin of ultrafast outflows in AGN" (Mizumoto et al. submitted to MNRAS, https://ui.adsabs.harvard.edu/abs/2020arXiv200301137M/abstract). If you use this model in your paper, please carefully read Mizumoto et al. and cite both of Mizumoto et al. and Nomura et al. 2020, 494, 3616 (https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3616N/abstract).
 This uvwind model is an atable model. You can use it as, for example, 
 ~~~
 model atable{uvwind.fits}+atable{uvwind.fits}
