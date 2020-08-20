@@ -10,7 +10,7 @@ In this model the input spectrum is fixed to be a power law. If you would like t
 
 Parameters for uvwind:
 * par1:   Primary compoent or scattered component. If par1=0, this model shows the primary component absorbed in the wind, whereas if par1=1, it shows the secondary component scattered on the wind out of the line of sight.
-* par2:   Inclination. The range is 40+(65-40)/9*(par2-1) deg < theta < 40+(65-40)/9*(par2) deg. See the 4th paragraph in section 2.3 of Mizumoto et al.
+* par2:   Inclination. The range is 40+(65-40)/9*(par2-1) deg < theta < 40+(65-40)/9*(par2) deg. See the 4th paragraph in section 2.3 of Mizumoto et al. For example, par2=4 means 48.33deg < theta < 51.11deg.
 * par3:   Photon index of the input power law
 * par4:   Redshift
 * norm:   Same as the one in the "powerlaw" model
